@@ -1,0 +1,24 @@
+.productList {
+  font-size: 14px;
+  /* margin-left: 50px; */
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  padding-bottom: 10px;
+  /* width: 100%; */
+  /* height: 100%; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.productList.active {
+  background-color: #15023a;
+  color: white;
+}
+@media (max-width: 767px) {
+  .productList {
+    margin-right: 5px;
+  }
+}
