@@ -6,7 +6,7 @@ import useFetch from "../../hooks/useFetch.js";
 
 export default function Product() {
   const [selected, setSelected] = useState("LAMB NAPPA");
-  const { data, loading, error } = useFetch(`/leathers?title=${selected}`);
+  const { data, loading, error } = useFetch(`/api/leathers?title=${selected}`);
   const [data1, setData1] = useState([]);
   const list = [
     {
