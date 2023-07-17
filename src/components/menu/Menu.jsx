@@ -15,10 +15,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <HashLink to="/#product">Products</HashLink>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <HashLink to="/#productions">Productions</HashLink>
-        </li>
-        <li onClick={() => setMenuOpen(false)}>
-          <HashLink to="/#events">Events</HashLink>
+          <HashLink to="/#production">Production</HashLink>
         </li>
         <li onClick={() => setMenuOpen(false)}>
           <HashLink to="/#certifications">Certifications</HashLink>

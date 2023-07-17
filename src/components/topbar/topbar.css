@@ -39,6 +39,10 @@
   /* width: 100%; */
   /* overflow: auto; */
 }
+.topbar .topbarWrapper .topbarLeft .itemContainer .c-icon {
+  width: 30px;
+  height: 30px;
+}
 @media (max-width: 767px) {
   .topbar .topbarWrapper .topbarLeft .itemContainer {
     display: none;
@@ -53,7 +57,7 @@
   font-weight: 500;
 }
 .topbar .topbarWrapper .topbarRight {
-    width: 50px;
+  width: 50px;
 }
 .topbar .topbarWrapper .topbarRight .hamburger {
   width: 100%;
